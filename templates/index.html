@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name | Personal Website</title>
-  <link rel="stylesheet" href="static/styles.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
   <header>
@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="portrait-placeholder" aria-label="Portrait image placeholder">
-        <img src="static/Yi_portrait.jpg" alt="Portrait of Yi">
+        <img src="{{ url_for('static', filename='portrait.jpg') }}" alt="Portrait of Yi">
       </div>
     </div>
   </header>
