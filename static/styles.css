@@ -154,11 +154,31 @@
       list-style: none;
     }
 
+
     .skills li {
       padding: 8px 12px;
       background: #e9f1ef;
       color: var(--accent-dark);
       border: 1px solid #c7dcd8;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.92rem;
+    }
+
+      .certifications {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .certifications li {
+      padding: 8px 12px;
+      background: #d6f5f2;
+      color: var(--accent-dark);
+      border: 1px solid #7ed8d1;
       border-radius: 999px;
       font-weight: 700;
       font-size: 0.92rem;
